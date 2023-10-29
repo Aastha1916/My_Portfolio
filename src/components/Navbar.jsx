@@ -7,8 +7,8 @@ const Navbar = () => {
     const links= [
         {id:1,link:'home',title:'Home'},
         {id:2,link:'about',title:'About'},
-        {id:3,link:'experience',title:'Skills'},
-        {id:4,link:'portfolio',title:'Projects'},
+        {id:3,link:'skills',title:'Skills'},
+        {id:4,link:'projects',title:'Projects'},
         // {id:5,link:'Certifications',title:'Certifications'},
         {id:6,link:'contact',title:'Contact'},
         // {id:7,link:'MyCreatives',title:'MyCreatives'}
