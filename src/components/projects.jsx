@@ -1,13 +1,5 @@
 import React from 'react'
 import {FaGithub} from 'react-icons/fa';
-// import About_Me_old from '../assets/portfolio/About_Me_old.jpg';
-// import homepageimage from '../assets/portfolio/homepageimage.svg';
-// import one from '../assets/portfolio/one.svg';
-// import two from '../assets/portfolio/two.svg';
-// import three from '../assets/portfolio/three.svg';
-// import four from '../assets/portfolio/four.svg';
-// import five from '../assets/portfolio/five.svg';
-// import six from '../assets/portfolio/six.svg';
 import CollegeVerification from '../assets/Projects/CollegeVerification.png';
 import WebScrapper from '../assets/Projects/WebScrapper.png';
 import FaceMaskDetector from '../assets/Projects/FaceMaskDetector.png';
@@ -48,8 +40,8 @@ export const Projects = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-10 sm:px-0'>
                 {
                     projects.map(({ id, src,href ,title,description}) => (
-                            <div key={id}  className='shadow-md shadow-gray-600 rounded-lg'>
-                                <img src={src} alt="" className='rounded-md  hover:scale-105 hover:duration-300'></img>
+                            <div key={id}  className='-mx-2 shadow-md shadow-gray-600 rounded-lg w-[65%] sm:w-auto '>
+                                <img src={src} alt="" className='rounded-md hover:scale-105 hover:duration-300'></img>
                                 <div className='flex flex-col items-center justify-center px-4'>
                                     <div className='sm:h-60 md:h-64'>
                                     <h1 className=' py-4 font-bold text-xl md:h-20'>{title}</h1>
